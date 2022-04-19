@@ -1,0 +1,30 @@
+.clients-list {
+    display: flex;
+}
+
+.clients:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-page {
+    fill: var(--social-icon);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-icon);
+    border-radius: 4px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border, fill;
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
+}
