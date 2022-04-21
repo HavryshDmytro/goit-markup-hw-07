@@ -33,9 +33,7 @@
         letter-spacing: 0.06em;
         text-align: center;
     
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: background-color;
+        transition: background-color var(--animation);
     
         &:hover,
         &:focus {

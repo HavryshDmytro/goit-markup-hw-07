@@ -16,9 +16,11 @@
         border-radius: 4px;
         letter-spacing: 0.03em;
     
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color, background-color, box-shadow;
+
+        transition: color var(--animation),
+        background-color var(--animation),
+        box-shadow var(--animation);
+        
     }
 
     & .button:hover,

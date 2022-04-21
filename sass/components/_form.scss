@@ -6,9 +6,7 @@
     padding-left: 42px;
     outline: none;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border;
+    transition: border var(--animation);
 
     &:hover,
     &:focus {
@@ -31,9 +29,7 @@
 
     outline: none;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border;
+    transition: border var(--animation);
 
     &:hover,
     &:focus {
@@ -77,9 +73,7 @@ textarea {
     position: absolute;
     left: 12px;
     top: 11px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
+    transition: fill var(--animation);
 }
 .for-icon {
     position: relative;
